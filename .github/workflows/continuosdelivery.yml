@@ -16,5 +16,5 @@ jobs:
               with:
                 name: projeto.zip
                 path: |
-                    '**.py'
+                    main.py
                     README.md
