@@ -56,10 +56,10 @@ jobs:
         uses: chase-roohms/discord-notify@v1
         with:
           webhook_url: ${{ secrets.DISCORD_WEB_HOOK }}
-          content: 'Build completed successfully'
-        
-        # uses: Sniddl/discord-commits@v1.6
-        # with:
-        #   webhook: ${{ secrets.DISCORD_WEB_HOOK }}
-        #   template: "avatar-with-link"
-        #   include-extras: true
+          content: 'Actions de Integração funcionando com Sucesso!'
+          
+          embed-titles: 'Build Status'
+          embed-descriptions: 'All tests passed successfully'
+          embed-colors: '00FF00'
+          embed-footers: 'GitHub Actions'
+          embed-timestamps: 'now'
