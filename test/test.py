@@ -1,5 +1,4 @@
 import importlib
-import pytest
 from unittest.mock import patch
 from src import main 
 
