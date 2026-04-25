@@ -1,6 +1,9 @@
+import sys
+sys.path.insert(0,'./src')
+
 import importlib
 from unittest.mock import patch
-from src import main 
+import main 
 
 class TesteGeradorSenha:
     
