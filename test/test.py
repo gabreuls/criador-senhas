@@ -1,8 +1,7 @@
 import importlib
-
 import pytest
 from unittest.mock import patch
-import main 
+from src import main 
 
 class TesteGeradorSenha:
     
