@@ -11,20 +11,20 @@ senha = ""
 
 while len(senha) < 12:
 
-        item = random.randint(1,4)
+    item = random.randint(1,4)
 
-        match item:
-            case 1: 
-                caracter = random.choice(letras_minusculas)
-                senha += caracter
-            case 2: 
-                caracter = random.choice(letras_maiusculas)
-                senha += caracter
-            case 3: 
-                caracter = random.choice(numeros)
-                senha += caracter
-            case 4: 
-                caracter = random.choice(simbolos)
-                senha += caracter
+    match item:
+        case 1: 
+            caracter = random.choice(letras_minusculas)
+            senha += caracter
+        case 2: 
+            caracter = random.choice(letras_maiusculas)
+            senha += caracter
+        case 3: 
+            caracter = random.choice(numeros)
+            senha += caracter
+        case 4: 
+            caracter = random.choice(simbolos)
+            senha += caracter
     
 
