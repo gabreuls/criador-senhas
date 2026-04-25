@@ -7,12 +7,9 @@ letras_maiusculas = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O'
 numeros = ['0','1','2','3','4','5','6','7','8','9']
 simbolos = [',','.','-','=','+','@','#','$','%','*','/','!','?']
 
+senha = ""
 
-def gerar_senha (tamanho=12):
-
-    senha = ""
-
-    while len(senha) < tamanho:
+while len(senha) < 12:
 
         item = random.randint(1,4)
 
@@ -30,9 +27,4 @@ def gerar_senha (tamanho=12):
                 caracter = random.choice(simbolos)
                 senha += caracter
     
-    return senha
-
-if __name__=="__main__":
-    senha = gerar_senha()
-    print (f"Senha gerada: {senha}")
 
